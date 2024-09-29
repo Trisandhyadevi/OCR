@@ -16,6 +16,9 @@ pinned: false  # Whether this Space should be pinned on your profile
 ## Project Overview
 This is a **web-based Optical Character Recognition (OCR) application** built using Streamlit. The app supports both English and Hindi languages, allowing users to upload images and extract text using advanced OCR models.
 
+## Live Demo
+You can access the live demo of the application at: [https://huggingface.co/spaces/Trisandhya/GOT-OCR-WEB-APP](https://huggingface.co/spaces/Trisandhya/GOT-OCR-WEB-APP)
+
 ## How the Application Works
 1. Choose Language: Select either English or Hindi using the sidebar instructions.
 2. Upload Image: Use the file uploader to input an image in JPG, PNG, or JPEG format.
@@ -49,7 +52,7 @@ This is a **web-based Optical Character Recognition (OCR) application** built us
 
 # Description
 
-This web application supports converting images to text using the GOT OCR 2.0 Model. Below are some key features of the GOT OCR 2.0 model
+This web application facilitates the conversion of images to text using the GOT OCR 2.0 Model for English text extraction. While the GOT model excels in processing English content, fine-tuning it on a Hindi dataset is not feasible on a CPU. Therefore, for Hindi text extraction, we utilize EasyOCR, which provides effective performance for this language.
 
 # GOT OCR 2.0 Model Overview
 
@@ -62,15 +65,29 @@ Note: Currently, the model does not support all languages. Fine-tuning is requir
 
 For more technical details about the model architecture and usage, visit the [GOT OCR 2.0 Model Documentation](https://github.com/Ucas-HaoranWei/GOT-OCR2.0/?tab=readme-ov-file#general-ocr-theory-towards-ocr-20-via-a-unified-end-to-end-model).
 
+## Folder Structure
+
+<pre>
+.
+├── app.py                
+├── requirements.txt       
+└── README.md      
+
+</pre>
 
 ## Deployment
-To deploy the application to a cloud platform(Hugging Face)
 
-## Folder Structure
-```bash
-.
-├── app.py                # Main application file
-├── requirements.txt       # Python dependencies
-└── README.md              # Projectdocumentation
+# To deploy the application to a  Hugging Face cloud platform 
+
+1. Use GitHub Actions: Set up GitHub Actions in your repository to automate the deployment process to Hugging Face Spaces.
+
+2. Follow Documentation: For detailed instructions on setting up GitHub Actions for Hugging Face Spaces, refer to the [Hugging Face Spaces GitHub Actions Documentation](https://huggingface.co/docs/hub/spaces-github-actions).
+
+
+## Contact
+For any further queries or assistance, feel free to reach out via email at:[devitrisandhya@gmail.com](devitrisandhya@gmail.com)
+
+
+
 
 

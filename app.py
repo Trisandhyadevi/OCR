@@ -75,6 +75,15 @@ if 'reset' not in st.session_state:
 
 if 'language' not in st.session_state:
     st.session_state.language = False
+    
+with st.sidebar:
+    st.header("Instructions")
+    st.write("1. Choose a language (English or Hindi).")
+    st.write("2. Upload an image in JPG, PNG, or JPEG format.")
+    st.write("3. The app will extract text from the image using OCR.")
+    st.write("4. Enter keywords to search within the extracted text.")
+    st.write("5. If needed, click 'Reset' to upload a new image.")
+
 
 st.header("Optical Character Recognition ")
 col1, col2 = st.columns(2)

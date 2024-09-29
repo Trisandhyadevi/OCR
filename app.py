@@ -90,14 +90,14 @@ with col1:
     if st.button('English'):
         
         st.session_state.language = 'English'
-        st.rerun()
+        st.experimental_rerun()
         
 
 with col2:
     if st.button('Hindi'):
         
         st.session_state.language = 'Hindi'
-        st.rerun()
+        st.experimental_rerun()
         
 
 if st.session_state.language == 'English':

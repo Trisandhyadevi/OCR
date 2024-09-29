@@ -81,6 +81,8 @@ with st.sidebar:
     st.write("3. The app will extract text from the image using OCR.")
     st.write("4. Enter keywords to search within the extracted text.")
     st.write("5. If needed, click 'Reset' to upload a new image.")
+    st.sidebar.markdown("<br>" * 10, unsafe_allow_html=True)
+    st.write("🤖 Please wait while the model is processing... This may take a moment.")
 
 
 st.header("Optical Character Recognition ")

@@ -1,3 +1,16 @@
+---
+title: GOT OCR Web App  # Title of your app
+emoji: 📄  # You can choose any emoji that represents your app
+colorFrom: blue  # Start color for the gradient background
+colorTo: green  # End color for the gradient background
+sdk: streamlit  # Your app uses Streamlit
+sdk_version: "1.21.0"  # Version of Streamlit you are using
+app_file: app.py  # Entry point of your application
+pinned: false  # Whether this Space should be pinned on your profile
+---
+
+
+
 # OCR Web Application
 
 ## Project Overview
@@ -54,16 +67,10 @@ For more technical details about the model architecture and usage, visit the [GO
 To deploy the application to a cloud platform(Hugging Face)
 
 ## Folder Structure
- 1.```bash
-        .
-        ├── app.py                # Main application file
-        ├── requirements.txt       # Python dependencies
-        └── README.md              # Projectdocumentation
+```bash
+.
+├── app.py                # Main application file
+├── requirements.txt       # Python dependencies
+└── README.md              # Projectdocumentation
 
 
-## Dependencies
-1. Streamlit: Web framework to create the interactive interface.
-2. Transformers: To load the GOT OCR 2.0 model.
-3. EasyOCR: To process Hindi text extraction.
-4. Torchvision: To handle image transformations.
-5. Pillow: Image processing library.

@@ -11,4 +11,3 @@ safetensors
 streamlit
 easyocr
 numpy 
-pandas

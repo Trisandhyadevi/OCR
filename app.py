@@ -6,7 +6,6 @@ import torch
 from torchvision import io
 import torchvision.transforms as transforms
 import random
-import pandas as pd
 import easyocr
 import numpy as np
 import re

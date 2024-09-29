@@ -2,7 +2,6 @@ from transformers import AutoModel, AutoTokenizer,AutoProcessor
 import streamlit as st
 import os
 from PIL import Image
-import torch
 from torchvision import io
 import torchvision.transforms as transforms
 import random
